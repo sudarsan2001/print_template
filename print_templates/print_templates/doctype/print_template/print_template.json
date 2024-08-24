@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-23 18:06:42.310407",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "document_name",
+  "print_template_json_section",
+  "json_muck",
+  "preview_tab",
+  "htmlpreview_section",
+  "html_view"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_name",
+   "fieldtype": "Link",
+   "label": "Document Name",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "print_template_json_section",
+   "fieldtype": "Section Break",
+   "label": "Print Template JSON"
+  },
+  {
+   "fieldname": "json_muck",
+   "fieldtype": "JSON"
+  },
+  {
+   "fieldname": "htmlpreview_section",
+   "fieldtype": "Section Break",
+   "label": "HTML Preview"
+  },
+  {
+   "fieldname": "html_view",
+   "fieldtype": "HTML",
+   "label": "HTML View",
+   "max_height": "110px"
+  },
+  {
+   "fieldname": "preview_tab",
+   "fieldtype": "Tab Break",
+   "label": "Preview"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-24 22:29:48.451046",
+ "modified_by": "Administrator",
+ "module": "Print Templates",
+ "name": "Print Template",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

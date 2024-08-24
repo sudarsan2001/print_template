@@ -1,0 +1,8 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+    <div id="app">
+        <your-vue-page></your-vue-page>
+    </div>
+    <script src="{{ url_for('your_custom_app.static', filename='js/your_vue_page.js') }}"></script>
+{% endblock %}

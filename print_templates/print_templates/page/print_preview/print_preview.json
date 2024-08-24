@@ -1,0 +1,22 @@
+{
+ "content": null,
+ "creation": "2024-08-14 18:22:06.813142",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-08-14 18:22:06.813142",
+ "modified_by": "Administrator",
+ "module": "Print Templates",
+ "name": "print-preview",
+ "owner": "Administrator",
+ "page_name": "print-preview",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0
+}
